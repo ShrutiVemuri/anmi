@@ -1,0 +1,112 @@
+.head{
+    margin: 0px 0px 20px ;
+    background-color:azure ;
+    box-shadow: 50px;
+}
+img#logo{
+   height: 30px;
+   width: 130px;
+   margin-left: 50px;
+   margin-right: 0px;
+   display: inline;
+
+}
+h1{
+    display: inline-block;
+    margin-left: 260px;
+    color: #696969;
+    
+}
+div a img{
+    height: 30px;
+    width: 30px;
+}
+.icon{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 120px;
+   gap: 25px;
+}
+.container{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+}
+.tittle{
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.subtittle{
+    font-family: 1.2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.content{
+    font-size: 1.1em;
+    line-height: 1.5;
+    padding-bottom: 25px;
+}
+hr{
+    margin: 20px 0;
+}
+.timeline {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    position: relative;
+    align-items: center;
+}
+
+.year {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    background-color: white;
+    z-index: 1;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.year.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #ccc;
+    z-index: 0;
+}
+
+.filters {
+    margin: 20px 0;
+    text-align: center;
+}
+
+#webinarTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+#webinarTable th, #webinarTable td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+#webinarTable th {
+    background-color: #f2f2f2;
+}
+
